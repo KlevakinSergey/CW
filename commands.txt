@@ -1,0 +1,6 @@
+  
+-- SELECT * FROM developer WHERE sex = 'MALE' and date > 1995;
+-- SELECT name FROM developer union SELECT name FROM ITcompany.project_maneger;
+-- SELECT * FROM developer WHERE date > '1995-01-01';
+-- SELECT count(sex) as male from developer where sex='MALE';
+-- SELECT count(sex) as female from developer where sex='FEMALE';

@@ -3,7 +3,7 @@ with open('air.txt', 'r') as f:
     text = f.read()
     text = ''.join(text)
     text = text.replace(',', '').replace('.', '').replace('?', '').replace('!', '').replace(' ','').replace('\n','')
-    letters = list(text.lower())
+    letters = list(text)
    
     
 def get_letters_dict(letters):
